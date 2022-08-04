@@ -12,26 +12,16 @@ Adicionar DarkMode em sistemas Web
 
 ## Uso 💻
 
-1. Adicionar no seu HTLM da maneira que preferir, importando `DarkMode.js` script:
+1. Adicionar no seu HTML da maneira que preferir, importando `DarkMode.js` script:
 
-Bootstrap 4.x
-
-```html
-<div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-</div>
-<script src="DarkMode.js"></script>
-```
-
-Bootstrap 5.x
 
 ```html
-<div class="form-check form-switch">
-  <input type="checkbox" class="form-check-input" id="darkSwitch" />
-  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-</div>
-<script src="DarkMode.js"></script>
+  <div class="form-check form-switch">
+      <input type="checkbox" onchange="ActiveDarkMode()" class="form-check-input" id="darkSwitch" />
+      <label class="custom-control-label" for="darkSwitch">
+        <img id="iconSwitch"src="https://cdn-icons-png.flaticon.com/512/5262/5262027.png"> //imagem de icone
+    </label>
+    </div>
 ```
 
 2. Edite o `DarkMode.css` para as suas necessidades.
