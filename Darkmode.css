@@ -1,0 +1,50 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .form-control {
+  background-color: #333 !important;
+  color:#eee; ;
+}
+[data-theme="dark"] .card {
+  background-color: #1d1d1de8 !important;
+}
+[data-theme="dark"] .sidebar-header {
+  background-color: #0a1b26 !important;
+}
+[data-theme="dark"] #sidebar {
+  background-color: #0a1b26 !important;
+}
+
+[data-theme="dark"] .btn-primary{
+  background-color: #082756 !important;
+  border-color: #082756 !important;
+
+}
+[data-theme="dark"] .btn-primary:hover{
+  background-color: #0c3065 !important;
+}
+.form-switch {
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.form-switch input,img{
+  cursor: pointer;
+}
+#iconSwitch{
+  width: 30px
+}
