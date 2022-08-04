@@ -21,7 +21,7 @@ Bootstrap 4.x
   <input type="checkbox" class="custom-control-input" id="darkSwitch" />
   <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 </div>
-<script src="dark-mode-switch.min.js"></script>
+<script src="DarkMode.js"></script>
 ```
 
 Bootstrap 5.x
@@ -31,7 +31,7 @@ Bootstrap 5.x
   <input type="checkbox" class="form-check-input" id="darkSwitch" />
   <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 </div>
-<script src="dark-mode-switch.min.js"></script>
+<script src="DarkMode.js"></script>
 ```
 
 2. Edite o `DarkMode.css` para as suas necessidades.
