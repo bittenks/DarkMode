@@ -16,6 +16,7 @@ Adicionar DarkMode em sistemas Web
 
 
 ```html
+  <script src="./js/DarkMode.js"></script>
   <div class="form-check form-switch">
       <input type="checkbox" onchange="ActiveDarkMode()" class="form-check-input" id="darkSwitch" />
       <label class="custom-control-label" for="darkSwitch">
