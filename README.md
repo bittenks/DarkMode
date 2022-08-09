@@ -2,7 +2,8 @@
 
 Adicionar DarkMode em sistemas Web
 
-- Usando LocalStorage para guardar o seu modo favorito
+- Identificando o tema do seu SO;
+- Usando LocalStorage para guardar o seu modo favorito.
 
 
 ## Como usar ❔
@@ -28,8 +29,9 @@ Adicionar DarkMode em sistemas Web
 2. Edite o `DarkMode.css` para as suas necessidades.
 
 ## Como funciona 💡
+Caso o tema do seu sistema operacional seja escuro, ele vai indentificar e já alternar para o modo escuro e vice-versa
 
-Transformar em modo escuro vai adionar `data-theme="dark"` no `body` tag. Você pode utilizar o css para personalizar da maneira que preferir, como:
+Você também pode colocar o modo diferente que está no seu sistema, quando você transformar em modo escuro vai adionar `data-theme="dark"` no `body` tag e no seu LocalStorage. Você pode utilizar o css para personalizar da maneira que preferir, como:
 
 ```css
 [data-theme="dark"] {
